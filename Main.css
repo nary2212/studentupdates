@@ -1,0 +1,213 @@
+
+.Main_container {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	/* margin-left: 5px; */
+	/* margin-right: 5px; */
+	background-color: #C9D8E1;
+}
+.header{
+	
+}
+
+.menubar {
+	background-color: blue;
+	border-radius: 5px;
+	padding: 2px;
+	color: white;
+}
+
+[class*="menucol-"] {
+  float: center;
+  padding: 1px;
+}
+
+.menucol-1 {width: 10%;}
+.menucol-2 {width: 10%;}
+.menucol-3 {width: 10%;}
+.menucol-4 {width: 10%;}
+.menucol-5 {width: 10%;}
+.menucol-6 {width: 10%;}
+/* .menucol-7 {width: 10%;} */
+
+.menubar a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	padding: 5px;
+}
+.menubar input {
+	width: 30%;
+	border: 3px solid #00B4CC;
+	border-right: none;
+	padding: 5px;
+	height: 20px;
+	border-radius: 5px 0 0 5px;
+	outline: none;
+	color: #9DBFAF;
+ 
+}
+
+
+
+.menubar input:focus{
+  color: #00B4CC;
+}
+
+.menubar Button {
+	width: 40px;
+	height: 30px;
+	border: 1px solid #00B4CC;
+	background: #00B4CC;
+	text-align: center;
+	color: #fff;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	font-size: 20px;
+	/* margin-bottom:5PX; */
+	padding: 5px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.menubar Button input{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.body_container {
+	padding: 5px;
+	background-color:white;
+	margin-left: 15px;
+	margin-right:15px;
+}
+[class*="framecol-"] {
+  float: center;
+  padding: 1px;
+}
+
+.framecol-1 { width: 36%;}
+.framecol-2 { width: 36%;}
+.framecol-3 { width: 25%;}
+
+.frame {
+	border: none;
+	height: 800px;
+}
+
+.footer_container {
+	background-color: #a8adac;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+/* Notifcations */
+.nh1  {
+	/* background-color: #4c494d; */
+	border-radius: 10px;
+	color: red;
+	text-align:left;
+	font-size: 8px;
+	font-family: Verdana;
+	padding:0.5px;
+	margin-left: 50px;
+}
+
+.list li a {
+	text-decoration: none;
+	font-size: 15px;
+	font-family: 'Times New Roman', serif;
+}
+.list li {
+	border-style: hidden  hidden ridge hidden;
+}
+
+
+
+
+
+
+/* Results */
+.rh1  {
+	/* background-color: #4c494d; */
+	border-radius: 10px;
+	color: red;
+	text-align:left;
+	font-size: 8px;
+	font-family: Verdana;
+	padding:0.5px;
+	margin-left: 50px;
+	}
+
+/*FLAMES*/
+
+.fh1  {
+	
+	border-radius: 10px;
+	color: white;
+	text-align:center;
+	font-size: 8px;
+	font-family: Verdana;
+	margin-top: 30px;
+	
+}
+	
+.bodystyle{
+	background-image: url("pictures/fl_backgrond.jpg");
+	background-repeat: no-repeat;
+	background-size:  100% 100%;
+	border-radius:10px;
+	border: solid;
+}
+.form_container{
+		margin: 20px;
+		height: 500px;
+		padding-top: 30px;
+		padding-left: 30px;
+		margin-top: 20px;
+}
+
+.form_container label {  
+	text-align: center;  
+	font-weight: normal; 
+	text-transform: lowercase;  
+	font-family: 'Bangers', cursive; 
+	margin-left: 5px;
+	font-size: 20px;
+	color: black;
+	
+	
+}  
+.form_container input{
+	padding: 2px;
+	border: 2px solid #aaa;  
+	border-radius: 4px;  
+	margin: 8px 8px ;  
+	outline: none;  
+	box-sizing: border-box;  
+	transition: 0.3s;
+	font-size: 16px;
+	color: black;
+	
+}
+
+.form_container input:focus {  
+  border-color: dodgerBlue;  
+  box-shadow: 0 0 8px 0 dodgerBlue;  
+} 
+
+.form_container button {
+	padding: 2px;
+	text-align: center;
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Bangers', cursive; 
+	margin-left: 10px;
+	margin-top: 10px;
+	
+}
