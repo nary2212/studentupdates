@@ -111,6 +111,38 @@ display:none;
 		height: 500px;
 
 	}
+	
+	
+	.form_container label {  
+	text-align: center;  
+	font-weight: normal; 
+	text-transform: lowercase;  
+	font-family: 'Bangers', cursive; 
+	margin-left: 1px;
+	font-size: 20px;
+	color: black;
+	
+	
+}  
+	.form_container input{
+		padding: 2px;
+		border: 2px solid #aaa;  
+		border-radius: 4px;  
+		margin: 8px 8px ;  
+		outline: none;  
+		box-sizing: border-box;  
+		transition: 0.3s;
+		font-size: 16px;
+		color: black;
+	
+}
+.form_container{
+		margin: 10px;
+		height: 500px;
+		padding-top: 20px;
+		padding-left: 20px;
+		margin-top: 20px;
+}
 
 }
 
