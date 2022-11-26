@@ -15,24 +15,38 @@
 	<div class = "header">
 		<img src="Pictures/Stundetsupdates.png" width="200px">
 		<div class = "menubar">
-			<div class = "menu_items" id="myUL">
+			<div class = "menubar-items">
 				<a class="menucol-1" href ="#">HOME</a>
 				<a class="menucol-2" href ="Notifications.html">Notificctions</a>
 				<a class="menucol-3" href ="Results.html">Results</a>
 				<a class="menucol-4" href ="#">Colleges</a>
 				<a class="menucol-5" href ="#">About US</a>
-				<input type="text" id="myInput" placeholder="What are you looking for?">
-				<button type="submit" onclick="search(); return false" class="menucol-7">
-					<i class="fa fa-search"></i>
-				</button>
 			</div>
 		</div>
+		<div class = "mobilebar">
+			<div class= "dropdown">
+				<a>Menu</a>
+				<div class = "mobilebar-items">
+					<a href ="#">HOME</a>
+					<a href ="Notifications.html">Notificctions</a>
+					<a href ="Results.html">Results</a>
+					<a href ="#">Colleges</a>
+					<a href ="#">About US</a>
+				</div>
+			</dIV>
+		</div>
+		
 	</div>
+	
+	
+	<div class = "body_container">
 	<div class = "body_container">
 		<iframe class = "framecol-1 frame" title = "Notifications" src="Notifications.html" target="_blank"></iframe> 
 		<iframe class = "framecol-2 frame" title = "Results" src="Results.html" target="_blank"></iframe> 
 		<iframe class = "framecol-3 frame" title = "Flames" src="Flames.html"></iframe> 
 	</div>
+	
+	
 	<div class = "footer_container">
 		<P> This Website proveds latest updates for students </p>
 	</div>
@@ -49,24 +63,25 @@
 
 
 <script>
-function search() {
-  // Declare variables
-  var input, filter, ul, li, a, i, txtValue;
-  input = document.getElementById('myInput');
-  filter = input.value.toUpperCase();
-  ul = document.getElementById("myUL");
-  li = ul.getElementsByTagName('a');
+function display() {
 
-  // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < li.length; i++) {
-    a = li[i].getElementsByTagName("a")[0];
-    txtValue = a.textContent || a.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      li[i].style.display = "";
-    } else {
-      li[i].style.display = "none";
-    }
+<!-- var x = document.getElementsByClassName(".menubar-items"); -->
+<!-- document.getElementById("test").innerHTML = x; -->
+<!-- x.child.style.color = "red"; -->
+var x = document.getElementById("links").className
+document.getElementById("links").className = "dis";
+<!-- x.style.display = "block"; -->
+<!-- var x = document.querySelector("a"); -->
+document.getElementById("test").innerHTML = x;
+  if (x === "menubar-items") {
+    x = "dis";
+  } else if (x === "dis"){
+    x = "menubar-items";
   }
+  
+m=document.getElementsByClassName(".menubar-items a");
+<!-- document.getElementById("test").innerHTML = m; -->
+<!-- m.style.display="inline"; -->
 }
 </script>
 
