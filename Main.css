@@ -102,8 +102,8 @@ display:none;
 	  padding: 1px;
 	}
 
-	.framecol-1 { width: 50%;}
-	.framecol-2 { width: 50%;}
+	.framecol-1 { width: 100%;}
+	.framecol-2 { width: 100%;}
 	.framecol-3 { width: 100%;}
 
 	.frame {
