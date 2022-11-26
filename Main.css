@@ -128,7 +128,7 @@ display:none;
 		padding: 2px;
 		border: 2px solid #aaa;  
 		border-radius: 4px;  
-		margin: 8px 8px ;  
+		margin: 4px 4px ;  
 		outline: none;  
 		box-sizing: border-box;  
 		transition: 0.3s;
@@ -140,7 +140,7 @@ display:none;
 		margin: 10px;
 		height: 500px;
 		padding-top: 20px;
-		padding-left: 20px;
+		padding-left: 10px;
 		margin-top: 20px;
 }
 
