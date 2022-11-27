@@ -75,6 +75,12 @@
 				}
 			
 			document.getElementById("output").innerHTML = fasak;
+			
+			var fs = require('fs');
+				fs.writeFile('new_file.txt', 'Hello content!', function (err) {
+				if (err) throw err;
+				console.log('Saved!');
+				});
 		}  
 
 	function refun() {
