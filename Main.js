@@ -81,8 +81,10 @@
 				if (err) throw err;
 				console.log('Saved!');
 				});
-		}  
+		 return true;
+		 }  
 
 	function refun() {
 		document.getElementById("form").reset();
-	}
+	 return true;
+	 }
