@@ -47,7 +47,7 @@ display:none;
 	
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
 /* menu  */
 	.menubar {
 		display: none;	
@@ -155,7 +155,7 @@ display:none;
 	margin-left: 15px;
 	margin-right:15px;
 }
-@media (min-width: 600px)  {
+@media (min-width: 750px)  {
 	[class*="framecol-"] {
 	  float: center;
 	  padding: 1px;
