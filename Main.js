@@ -1,4 +1,7 @@
+	
+	
 	function fun() {  
+	
 			var f = document.getElementById("fn").value;
 			var s = document.getElementById("sn").value;
 			fname=f.replaceAll(/\s/g,'');
@@ -77,7 +80,8 @@
 			document.getElementById("output").innerHTML = fasak;
 		
 		 return true;
-		 }  
+		 } 
+
 
 	function refun() {
 		document.getElementById("form").reset();
